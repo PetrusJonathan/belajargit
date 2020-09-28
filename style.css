@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    background-image: url(https://picsum.photos/seed/44/900);
+    background-size: cover;
+    background-attachment: fixed;
+    color: crimson;
+    font-family: 'Anton', sans-serif;
+
+}
+.belajar{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
